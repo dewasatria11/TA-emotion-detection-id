@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Specific / Model Weights
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+results/*
+!results/metrics.csv
+!results/figures/
+!results/figures/**
+*checkpoint*/
+checkpoint*/
+wandb/
+.DS_Store
+
+# Smoke Test
+smoke_test.py
+smoke_test_results/
+
+# Untracked files requested by user
+prompt.md
+results/smoke_test_output/
+notebooks/final.ipynb

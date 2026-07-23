@@ -1,0 +1,14 @@
+model,learning_rate,batch_size,epochs,accuracy,f1_macroIndoBERT-base-p1,2e-05,16,5,0.7318,0.7372
+XLM-RoBERTa-base,2e-05,16,5,0.7205,0.7289
+IndoBERT (LR=1e-05),1e-05,16,5,0.7409,0.7494
+IndoBERT (LR=2e-05),2e-05,16,5,0.7341,0.739
+IndoBERT (LR=5e-05),5e-05,16,5,0.7295,0.7383
+XLM-RoBERTa (LR=1e-05),1e-05,16,5,0.7341,0.74
+XLM-RoBERTa (LR=2e-05),2e-05,16,5,0.7227,0.7312
+XLM-RoBERTa (LR=5e-05),5e-05,16,5,0.7159,0.7221
+"IndoBERT (Epochs=3, LR=2e-05)",2e-05,16,3,0.7409,0.7479
+"IndoBERT (Epochs=5, LR=2e-05)",2e-05,16,5,0.7227,0.7269
+"IndoBERT (Epochs=10, LR=2e-05)",2e-05,16,10,0.7114,0.7136
+"XLM-RoBERTa (Epochs=3, LR=2e-05)",2e-05,16,3,0.725,0.7332
+"XLM-RoBERTa (Epochs=5, LR=2e-05)",2e-05,16,5,0.7295,0.7385
+"XLM-RoBERTa (Epochs=10, LR=2e-05)",2e-05,16,10,0.7182,0.7239
