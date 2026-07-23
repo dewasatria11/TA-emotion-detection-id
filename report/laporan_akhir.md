@@ -191,11 +191,21 @@ weighted avg       0.72      0.72      0.72       440
 | **fear** | 3 | 5 | 3 | 51 | 3 |
 | **happy** | 11 | 1 | 12 | 1 | 76 |
 
-Visualisasi lengkap (heatmap confusion matrix dan kurva training loss/F1 per epoch) tersimpan sebagai file gambar di:
-- `results/figures/indobert_confusion_matrix.png`, `results/figures/indobert_training_curves.png`
-- `results/figures/xlmr_confusion_matrix.png`, `results/figures/xlmr_training_curves.png`
+Visualisasi lengkap (heatmap confusion matrix dan kurva training loss/F1 per epoch):
 
-*(Sisipkan keempat gambar ini secara langsung saat laporan dikonversi ke format akhir — Word/PDF.)*
+#### IndoBERT (Baseline)
+![IndoBERT Confusion Matrix](../results/figures/indobert_confusion_matrix.png)
+*Gambar 1: Confusion Matrix IndoBERT*
+
+![IndoBERT Training Curves](../results/figures/indobert_training_curves.png)
+*Gambar 2: Kurva Loss dan F1 IndoBERT*
+
+#### XLM-RoBERTa (Baseline)
+![XLM-RoBERTa Confusion Matrix](../results/figures/xlmr_confusion_matrix.png)
+*Gambar 3: Confusion Matrix XLM-RoBERTa*
+
+![XLM-RoBERTa Training Curves](../results/figures/xlmr_training_curves.png)
+*Gambar 4: Kurva Loss dan F1 XLM-RoBERTa*
 
 **Observasi dari confusion matrix**:
 - Pada **kedua model**, kesalahan klasifikasi terbesar adalah **kelas *anger* yang salah diprediksi sebagai *sadness*** (IndoBERT: 16 kasus; XLM-RoBERTa: 21 kasus) — mengindikasikan kedua emosi ini memiliki tumpang tindih leksikal/konteks yang tinggi pada teks Twitter Bahasa Indonesia (tweet yang mengekspresikan kemarahan sering ditulis dengan nada yang juga terdengar sedih/kecewa).
